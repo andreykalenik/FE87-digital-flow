@@ -115,14 +115,15 @@ p{
 .about__content {
     flex: 1 1 50%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     margin-left: 107px;
 }
 
 .about__text {
+    flex: 0 1 500px;
     text-align: right;
-    margin-right: 200px;
+    /* margin-right: 200px; */
 }
 .about__text h2{
     margin-bottom: 60px;
@@ -134,6 +135,7 @@ p{
 }
 .slider {
     margin-right: 138px ;
+    margin-left: 40px;
 }
 .slider__item {
     height: 15px;
