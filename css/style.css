@@ -162,6 +162,7 @@ p{
     align-items: center;
     max-width: 1920px;
     margin: 0 auto;
+    background-color: #FFFFFF;
 
 }
 .portfolio__content{
@@ -175,7 +176,7 @@ p{
 .portfolio__img {
     padding-top: 70px;
     max-width: 1214px;
-    height: 764px;
+    max-height: 764px;
 }
 .portfolio__img img{
     height: 100%;

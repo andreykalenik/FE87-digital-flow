@@ -84,7 +84,12 @@
     .about__img{
         display: none;
     }
-
+    .buttom-portfolio{
+        position: relative;
+        bottom: 0;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
      .wall{
     max-width: 759px;
 
@@ -156,21 +161,24 @@
     .web-application{
         height: 400px;
     }
-    .about__content{
+    .about__content,.portfolio{
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        margin: 0 20px;
+        margin: 0 auto;
     }
-
-    .about__slider{
+    .portfolio__content{
+        left: 0px;
+    }
+    .slider{
         width: 165px;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        
+        margin:0 auto
     }
+  
     .wall{
          width: 100%;
     }
