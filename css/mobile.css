@@ -1,6 +1,6 @@
 @media (max-width:1650px){
     .about__text{
-        margi
+      
     }
 }
 
@@ -9,6 +9,7 @@
         font-size: 40px;
         line-height: 50px;
     }
+    
     .slider {
         margin-right: 80px ;
     }
@@ -46,11 +47,25 @@
         font-size: 68px;
         line-height: 80px;
     }
+    h2{
+        font-size: 40px;
+        line-height: 50px;
+    }
     .web-application{
         height: 500px;
     }
     .web-application__background {
         height: 890px;
+    }
+    .about__text{
+        flex: 1 1 70%;
+    }
+    .about__img{
+        flex: 0 1 30%;
+        margin-left: 80px;
+    }
+    .about__img img{
+        object-fit: scale-down;
     }
      .wall{
     max-width: 759px;

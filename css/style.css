@@ -103,7 +103,6 @@ p{
 }
 
 .about {
-    height: 940px;;
     max-width: 1920px;
     display: flex;
     margin: 0 auto;
@@ -111,7 +110,7 @@ p{
 }
 .about__img {
     width: 960px;   
-    height: 940px; 
+    max-height: 940px; 
     flex: 1 1 50%;
 }
 .about__img img {
@@ -133,6 +132,7 @@ p{
 }
 .about__text h2{
     margin-bottom: 60px;
+    margin-top: 60px;
 }
 .about__text p{
     margin-bottom: 40px;
