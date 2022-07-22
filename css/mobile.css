@@ -5,7 +5,13 @@
 }
 
 @media (max-width: 1300px){
-
+    h2{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .slider {
+        margin-right: 80px ;
+    }
     .wall{
             max-width: 1032px;
             margin: 0 auto;
@@ -138,6 +144,10 @@
 @media (max-width: 420px){
     h1{
         font-size: 30px;
+    }
+    .button-web-application {
+        width: 260px;
+    
     }
     .web-application{
         height: 350px;
