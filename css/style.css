@@ -280,6 +280,40 @@ p{
 
 }
 
+.advantage {
+    background-image: url(../img/13e3b8a33eb0648c3ae4a07e21657328\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 900px;
+}
+
+.advantage__content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 336px;
+    padding-bottom: 209px;
+
+}
+.avantage__title {
+    flex: 0 0 80%;
+    justify-self: flex-start;
+    height: 59px;
+    margin: 50px auto 55px 90px;
+}
+.avatnage__contentblock {
+}
+.contentblock {
+    flex: 0 0 40%;
+    display: flex;
+    align-items: flex-start;
+    margin: 0 55px 60px;
+}
+.contentblock__img {
+    margin-right: 20px;
+}
+.contentblock__text {
+}
 .footer{
     flex-shrink: 0;
     height: 50px;
