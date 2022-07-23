@@ -314,6 +314,69 @@ p{
 }
 .contentblock__text {
 }
+
+.form {
+    background-color: #000201;
+    width: 100%;
+    min-height: 940px ;
+}
+
+.form__content {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+
+    color: #FFFFFF;
+}
+.mainform {
+    width: 940px;
+    height: 940px;
+    background-image: url(../img/mainform.png);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 173px;
+    padding-right: 73px;
+}
+.mainform h2{
+    margin-bottom: 80px;
+}
+label{
+    /* margin-bottom: 60px; */
+}
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white; 
+    width: 509px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    color: #FFFFFF;
+}
+.button-form {
+    width: 194px;
+    height: 55px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: #FFFFFF;
+}
+.mainapplication {
+}
+.label{
+    width: 194px;
+    height: 284px;
+    border:1px solid #FFFFFF ;
+
+}
+.crop{
+  height: 78px;
+  width: 78px;  
+  border:1px solid #FFFFFF;
+  border-radius: 50px;
+  border-top: none;
+  border-left: none;
+  transform: rotate(45deg);
+}
 .footer{
     flex-shrink: 0;
     height: 50px;
