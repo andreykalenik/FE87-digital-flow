@@ -9,6 +9,9 @@
     input{
         width: 450px;
     }
+    .mainapplication{
+        padding-left: 50px;
+    }
 }
 
 @media (max-width: 1300px){
@@ -84,8 +87,8 @@
     input{
         width: 370px;
     }
-    .mainform-bg{
-        left: 0;
+    .mainapplication{
+        padding-left: 30px;
     }
 }
 
@@ -148,6 +151,17 @@
     }
     .brick:nth-child(3n+3), .brick:nth-child(13){
         border-right: 0;
+    }
+    .form{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px ;
+    }
+    .mainapplication,.mainform{
+        align-items: center;
+       padding: 10px;
+       flex: 0 1 100%;
+
     }
 
  }
