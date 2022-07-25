@@ -10,7 +10,10 @@
         width: 450px;
     }
     .mainapplication{
-        padding-left: 50px;
+    }
+    .mainform{
+        padding-right: 33px;
+        margin-right: 20px;
     }
 }
 
@@ -68,6 +71,12 @@
     }
     .contentblock {
         margin: 0 30px 60px;
+    }
+    .mainform {
+        flex: 0 0 40%;
+    }
+    .mainapplication {
+        flex: 0 0 60%;
     }
     .label{
         width: 168px;
@@ -174,6 +183,9 @@
     .mainapplication{
         padding-bottom: 30px;
     }
+    .mainform{
+        margin-right: 0px;
+    }
 
  }
 
@@ -221,7 +233,7 @@
         flex: 0 0 80%;
         margin: 0 30px 60px;
     }
-        
+
 }
 
 @media (max-width: 575px){
