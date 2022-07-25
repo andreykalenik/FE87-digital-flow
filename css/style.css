@@ -119,6 +119,9 @@ p{
     margin: 0 auto;
     background: #F1F1F1;
 }
+section:nth-child(2){
+    background: #F1F1F1;
+}
 .about__img {
     width: 960px;   
     max-height: 940px; 
