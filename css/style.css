@@ -185,7 +185,7 @@ p{
     align-items: center;
 }
 .portfolio__img {
-    padding-top: 70px;
+    margin-top: 70px;
     max-width: 1214px;
     max-height: 764px;
 }

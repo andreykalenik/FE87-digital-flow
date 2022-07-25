@@ -99,6 +99,16 @@
     .mainapplication{
         height: 800px;
     }
+    .ftop {
+        flex-wrap: wrap;
+    }
+    .ftop__item {
+        flex: 0 0 45%;
+    }
+    .ftop__item:nth-child(3) h3,.ftop__item:nth-child(4) h3{
+        margin-top: 33px;
+    }
+
 }
 
 @media (max-width: 1050px){
@@ -233,6 +243,17 @@
         flex: 0 0 80%;
         margin: 0 30px 60px;
     }
+    .fotter__textblock:nth-child(1), .fotter__textblock:nth-child(2), .fotter__textblock:nth-child(3) {
+        display: none;
+    }
+    .ftop {
+        justify-content: flex-end;
+        }
+    
+    .fotter__textblock:nth-child(4){
+    flex: 1 1 90%;
+    }
+
 
 }
 
