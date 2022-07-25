@@ -183,6 +183,9 @@
     .mainapplication{
         padding-bottom: 30px;
     }
+    .mainform{
+        margin-right: 0px;
+    }
 
  }
 
@@ -230,11 +233,7 @@
         flex: 0 0 80%;
         margin: 0 30px 60px;
     }
-   .mainform{
-        min-width: 100%;
-        margin-right:auto;
-        margin-left: auto;
-    }
+
 }
 
 @media (max-width: 575px){
